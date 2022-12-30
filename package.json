@@ -1,0 +1,24 @@
+{
+  "name": "@vandeurenglenn/typed-array-concat",
+  "version": "1.0.0",
+  "description": "TypedArray.set() the concat() way",
+  "type": "module",
+  "exports": {
+    ".": "./concat.js"
+  },
+  "types": "./concat.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VandeurenGlenn/typed-array-concat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VandeurenGlenn/typed-array-concat/issues"
+  },
+  "homepage": "https://github.com/VandeurenGlenn/typed-array-concat#readme"
+}
