@@ -1,6 +1,6 @@
 declare type TypedArray = Uint8Array | Uint16Array | Uint32Array | BigInt64Array | BigUint64Array | ArrayBuffer | SharedArrayBuffer
 
-declare module TypedArrayConcat {
+declare module typedArrayConcat {
   /**
    * 
    * @param input TypedArray[]
@@ -10,5 +10,5 @@ declare module TypedArrayConcat {
 }
 
 declare module '@vandeurenglenn/typed-array-concat' {
-  export default TypedArrayConcat
+  export default typedArrayConcat
 }
