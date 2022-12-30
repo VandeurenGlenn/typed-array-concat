@@ -6,7 +6,7 @@ declare module TypedArrayConcat {
    * @param input TypedArray[]
    * @param length Number
    */
-  export default function (input: TypedArray[], length: Number):TypedArray 
+  export default function (input: TypedArray[], options = {length: Number, seperator: String | TypedArray}):TypedArray 
 }
 
 declare module '@vandeurenglenn/typed-array-concat' {

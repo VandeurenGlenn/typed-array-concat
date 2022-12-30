@@ -10,8 +10,17 @@ npm i @vandeurenglenn/typed-array-concat
 ```js
 import typedArrayConcat from '@vandeurenglenn/typed-array-concat'
 
-typedArrayConcat([
+const concated = typedArrayConcat([
   new TextEncoder('hello'),
   new TextEncoder('world')
 ])
+console.log(new TextDecoder().decode(concated)) // helloworld
+
+const concatedSeperated = typedArrayConcat([
+  new TextEncoder('hello'),
+  new TextEncoder('world')
+], {
+  seperator: ' '
+})
+console.log(new TextDecoder().decode(concatedSeperated)) // hello world
 ```
