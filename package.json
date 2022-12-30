@@ -1,6 +1,6 @@
 {
   "name": "@vandeurenglenn/typed-array-concat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypedArray.set() the concat() way",
   "type": "module",
   "exports": {
